@@ -1,9 +1,12 @@
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
+addHiddenType()
 
-// Your JavaScript code goes here!
-
+function addHiddenType() {
+  let main = document.querySelector('#modal')
+  main.setAttribute("type", "hidden")
+}
 
 
 
